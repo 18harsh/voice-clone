@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #2940ab;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #1BD760;
+	
+	
+	
+}
+
+.header__heading{
+	font-size: 80px;
+	margin-top: 40px;
+	margin-bottom: 0px !important;
+}
+
+.header__para{
+	font-size: 20px;
+	/* margin-top: 10px; */
+	/* color: white; */
+	margin-left: 10px !important;
+}
+
+#recorder{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #1BD760;
+	margin-top: 40px;
+}
+#recordingsList{
+	text-decoration: none;
+	color: #1BD760 !important;
+}
+a:-webkit-any-link {
+    color: #1BD760 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+.recorder_left{
+	align-items: left;
+	
+}
+.form__section{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #1BD760;
+	margin-top: 40px;
+}
+
+.button {
+	background-color: #1BD760;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+
+.demo__audio{
+	display:  grid;
+	justify-content: center;
+	align-items: center;
+	color:  #1BD760;
+	margin-top: 30px;
+}
+.output__audio{
+	display:  grid;
+	justify-content: center;
+	align-items: center;
+	color:  #1BD760;
+	margin-top: 50px;
+}
+
+.search-box{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-btn{
+	color: #e84118;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+
+}
+.search-box:hover > .search-txt{
+	width: 540px;
+	padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+	background: white;
+}
